@@ -144,7 +144,7 @@ section article{
 		article li, article li strong, article li em{
 			color:#181818;
 		}
-		article li em{
+		article em{
 			font-style:italic;
 			display:block;
 		}
