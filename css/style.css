@@ -1,0 +1,226 @@
+@import url('reset.css');
+
+body{
+	background-color: #e0dedd;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+header, nav.sub{
+	position:fixed;
+	left:0;
+	z-index:1000;
+}
+
+header .navbar {
+	position: absolute;
+	width: 100%;
+	top: -50px;
+}
+
+nav.sub{
+	background: transparent url() no-repeat 0px 80px scroll;
+	min-height: 100%;
+	padding-top: 12%;
+	min-width: 161px;
+}
+	nav.sub ul{
+		max-width: 100px;
+		background: transparent url('../img/general/bg-nav-arrow.png') no-repeat left 0px scroll;
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+		padding-top: 3px;
+		padding-bottom: 5px;
+	}
+		nav.sub ul li{
+			padding-left:40px;
+			margin-bottom: 10px;
+			width:100%;
+		}
+	nav.sub a,
+	nav.sub a:active,
+	nav.sub a:visited{
+		font-weight: bold;
+		text-decoration: none;
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+	}
+		nav.sub a.active{
+			text-decoration: none;
+			opacity: 1;
+			filter: alpha(opacity=100);
+		}
+
+header{
+	width:100%;
+	background: url() repeat-x;
+	height: 143px;
+	z-index:1001;
+}
+
+header .site-title{
+	float:left;
+	margin: 10px 0 0 40px;
+}
+	header .site-title a{
+		display: block;
+		width: 114px;
+		height: 24px;
+		background: url() no-repeat;
+		text-indent: -9999em;
+		margin-top:11px;
+	}
+
+	header nav{
+		float: right;
+		margin: 10px 100px 0 0;
+		padding-top:10px;
+	}
+		header nav li{
+			float:left;
+			margin-right:30px;
+		}
+			header nav li a,
+			header nav li a:active,
+			header nav li a:visited{
+				font-size:1.1em;
+				text-decoration: none;
+				font-weight: bold;
+			}
+
+#main {
+	overflow: hidden;
+}
+
+.scroll {
+	background: url('../img/scrollen.png') 20px no-repeat;
+	width: 150px;
+	height: 33px;
+	position: fixed;
+	z-index: 2000;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -50px;
+	font-size: 1.1em;
+	color: #FFF;
+	text-shadow: 1px 1px 2px #333;
+}
+
+section.hidden{
+	display:none;
+}
+
+section article{
+	display: block;
+	position: relative;
+	z-index: 100;
+	background: rgba(50,50,50,0.6);
+	max-width:350px;
+	padding:20px;
+	border-radius:10px;
+}
+	article hgroup h1{
+		font-size: 1.5em;
+		padding-bottom: 10px;
+		font-family: Georgia;
+		font-style: italic;
+	}
+	article hgroup h2{
+		font-size: 1.5em;
+	}
+	article p{
+		line-height:1.55em;
+	}
+	article ul{
+		margin:15px 0 10px 20px;
+		background: rgba(200, 200, 200, 0.8);
+		padding:5px;
+		border-radius:4px;
+	}
+		article li{
+			margin-left:20px;
+		}
+		article li, article li strong, article li em{
+			color:#181818;
+		}
+		article li em{
+			font-style:italic;
+			display:block;
+		}
+
+.case { 
+	height: 1000px; 
+	padding: 0; 
+	margin: 0; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	margin: 0 auto; 
+	border-top: 1px solid rgba(255,255,255,0.3); 
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.object { 
+	min-height: 1000px; 
+	padding: 0; 
+	margin: 0; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: absolute;
+}
+
+.back-to-top {
+	width: 100%; 
+	display: block; 
+	height: 100px !important; 
+	background: #cc0033; 
+	text-align: center; 
+	font-size: 19px !important; 
+	text-decoration: underline; 
+	padding-top: 70px !important; 
+	font-weight: bold;
+}
+
+/* add your own styling below per section */
+.background{
+	background: transparent url(../img/section-backgrounds/bg_blue.jpg) no-repeat center center;
+}
+	.background article{
+		margin:35% 0 0 60%;
+	}
+
+.verticalSprite{
+	background: transparent url(../img/section-vertical-sprite/bg_bubbles-green.jpg) repeat left top;
+}
+	.verticalSprite .kitten{
+		background: transparent url(../img/section-vertical-sprite/object_kitten.jpg) no-repeat 75% 350px;
+	}
+	.verticalSprite article{
+		margin:10% 0 0 20%;
+		background: rgba(20, 20, 20, 0.7);
+	}
+
+.horizontalSprite{
+	background: transparent url(../img/section-horizontal-sprite/bg_red.png);
+}
+	.horizontalSprite .pug{
+		background: transparent url(../img/section-horizontal-sprite/object_pug.jpg) no-repeat 20% 350px;
+	}
+	.horizontalSprite article{
+		margin:25% 0 0 55%;
+	}
+	
+.verticalBlock{
+	background: transparent url(../img/section-vertical-block/bg_paper.jpg);
+}
+	.verticalBlock article{
+		margin:200px 0 0 60%;
+		width:350px;
+	}
+	
+.horizontalBlock{
+	background: transparent url(../img/section-horizontal-block/bg_blue.jpg) repeat center top;
+}
+	.horizontalBlock article{
+		width:350px;
+	}

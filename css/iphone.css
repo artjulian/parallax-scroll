@@ -1,0 +1,851 @@
+/*@media (max-width:480px) {*/
+	/* general styling */
+	#main {
+		max-width: 320px;
+		background: #f9f9f9;
+	}
+	
+	.site-title {
+		font-size: 7px;
+		margin-left: 15px !important;
+	}
+	
+	article hgroup h1 {
+		padding-bottom: 5px;
+	}
+
+	header nav {
+		opacity:1;
+		-webkit-transition: opacity 0.2s ease-in-out;
+  		transition: opacity 0.2s ease-in-out;
+	}
+	header.background nav {
+		/*display:none;*/
+		opacity:0.01; /* 0.01 zodat ie niet uit de DOM wordt verwijdert, maar toch niet zichtbaar is, want anders verspringt de layout s*/
+		-webkit-transition: opacity 0.2s ease-in-out;
+  		transition: opacity 0.2s ease-in-out;	
+	}
+	
+	header .site-title a{
+		color: #000;
+	}
+	
+	header.background .site-title a {
+		color: #fff;
+	}
+	
+	.site-title span { font-size: 13px !important; }
+	
+	.to-website {
+		font-size: 11px;
+		margin-right: -80px !important;
+		margin-top: -5px;
+	}
+	
+	nav.sub { display: none; }
+	
+	header { position: absolute; /*background: none;*/ /*height: 270px;*/ }
+	
+	header.background {
+		background: url('../../img/cases/img/header-background.png') !important;
+		background-repeat: repeat-x;
+	}
+	
+	
+	.site-title {
+		position: fixed;
+		z-index: 100;
+	}
+	
+	header nav ul {
+		position: absolute;
+		left: 0px;
+		top: 55px;
+		margin-left: 20px;
+	}
+	
+	header nav ul li {
+		display: block;
+		float: none;
+		margin-bottom: 2px;
+		width: 210px;
+		height: 20px;
+		font-size: 15px;
+		padding: 10px;
+		padding-left: 60px;
+	}
+	
+	header nav ul li.current-menu-item { background: #fff; }
+	header nav ul li#menu-item-1 { background: #fff url('../../img/cases/img/iPhone/bg-nav-werk.png') 17px center no-repeat; background-size: 16px 24px;}
+	header nav ul li#menu-item-2 { background: url('../../img/cases/img/iPhone/bg-nav-mensen.png'); background-size: 280px 39px; }
+	header nav ul li#menu-item-3 { background: url('../../img/cases/img/iPhone/bg-nav-overtt.png'); background-size: 280px 39px;}
+	header nav ul li#menu-item-4 { background: url('../../img/cases/img/iPhone/bg-nav-vacatures.png'); background-size: 280px 39px;}
+	header nav ul li#menu-item-5 { background: url('../../img/cases/img/iPhone/bg-nav-contact.png'); background-size: 280px 39px;}
+	header nav ul li.current-menu-item span { color: #000; }
+	
+	#scrollen{ display: none; }
+	
+	/** General article styling **/
+	article.case-text {
+		position: absolute;
+		top: 445px;
+		left: 0;
+		padding: 0px;
+		z-index: 1000;
+		min-height: 58px;
+		height: 58px;
+		width: 320px;
+	}
+	
+	@media screen and (max-device-height:480px) and (min-device-height:480px) {
+		article.case-text { top: 358px; }
+	}
+	
+	@media screen and (max-device-height:960px) and (min-device-height:960px) {
+		article.case-text { top: 358px; }
+	}
+	
+
+	article.case-text hgroup {
+		padding-top: 9px;
+		padding-left: 14px;
+		height: 50px;
+	}
+	
+	article.case-text h1, article.case-text h2, article.case-text p { color: #fff !important; }
+	article.case-text h1 { font-size: 12px; }
+	article.case-text h2 { font-size: 18px; }
+	article.case-text p {
+		padding-top: 30px;
+		padding-left: 15px !important;
+		display: none;
+	}
+
+	article.expanded {
+		top: 0px !important;
+		z-index: 5000 !important;
+		height: 516px;
+		background: url('../../img/cases/img/iPhone/bg-overlay.png');
+	}
+	
+	/* iphone 3 */
+	@media screen and (max-device-height:480px) and (min-device-height:480px) {
+		article.case-text { top: 357px; }
+	}
+	
+
+	article.expanded p.description {
+		display: block !important;
+		width: 290px;
+		text-shadow: none;
+	}
+
+	/** cases styling **/
+	.fifpro {
+		background: url('../../img/cases/img/iPhone/bg-fifpro.jpg') repeat-y top scroll;
+		background-size: 395px; /* iPhone 4 = 416px, iPhone 5 = 504px, origineel: 100% */
+		margin-top: 230px;
+		height:1020px !important; /* 2 x iPhone browser size + 16px */
+	}
+	
+		.fifpro article hgroup br { display: none; }
+		.fifpro .object { height: 845px !important;}
+		
+		.fifpro article hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-fifpro.png'); background-size:  320px 58px; }
+		.fifpro .expanded hgroup { background: #000 url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px !important; }
+			
+		.fifpro .football { display: none; }
+		
+		.fifpro .ribbon {
+			background-attachment: scroll;
+			background-position: center 140px; /* iphone 4: 70px */
+			background-size: 95%;
+		}
+		
+		.fifpro .ribbon2 {
+			background-position: center 626px; /* iphone 4: 516px */
+			background-size: 95%;
+		}
+
+	.upc {
+		margin-top: 230px;
+		height: 1520px;
+		background-size: 504px 2000px;
+	}
+		.upc article { margin-top:0px; }
+		.upc article hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-fifpro.png'); background-size:  320px 58px; }
+		.upc article hgroup h2 { font-size:1.9em; }
+		.upc .expanded hgroup { background: #000 url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px !important; }
+		.upc article p.description { font-size:1.9em; margin-bottom:1em; }
+	
+	.upc .gradient1, .upc .gradient2{
+		display:none;
+	}
+	.upc .sticker, .upc .sticker2, .upc .sticker3{
+		background-size:32%;
+	}
+	.upc .tv-telefoon, .upc .laptop, .upc .website1, .upc .website2, .upc .website3{
+		width:100%;
+		background-size:70%;
+	}
+		.upc .tv-telefoon{
+			background-position: 75% 20%;
+		}
+		.upc .laptop{
+			background-size: 50%;
+			background-position: 20% 30%;
+		}
+		.upc .sticker{
+			background-position-y: 85px;
+		}
+	.upc .website1, .upc .website2, .upc .website3{
+		margin-top:350px;
+		height:1020px;
+	}
+		.upc .website1{ background-position-x: 15%; background-position-y: 305px; }
+		.upc .website2{ background-position-x: 40%; }
+		.upc .website3{ background-position-x: 65%; }
+	.upc .sticker2 { margin-top:450px; }
+	
+	.upc .takeover{ margin-top: 785px; background-size: 120%; width: 100%; background-position-x: 115%; }
+	.upc .sticker3{ margin-top: 960px; }
+	
+	.oxxio {
+		background: url('../../img/cases/img/iPhone/bg-oxxio.jpg') repeat-y scroll;
+		background-size: 388px; /* origineel: 100% */
+		height: 2015px; /* origineel: 1662px */ 
+	}
+	
+		/*.oxxio .object { height: 1662px; }*/
+		.oxxio article.case-text { left: 0; }
+		.oxxio article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-oxxio.png'); background-size:  320px 58px !important; }
+		.oxxio .expanded.right hgroup { background: #297da6 url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px !important; }
+				
+			.oxxio .expanded.right p.description {
+				padding: 15px;
+				display: block;
+			}
+		
+		.oxxio .dia.animate {
+			
+			-webkit-animation:none;
+			animation:none;
+		}
+		.oxxio .dia {
+			background-attachment: scroll;
+			background-size: 30%;
+			background-position: left top;
+			-webkit-animation:none;
+			animation:none;
+		}
+		
+		.oxxio .oscar {
+			background-position: center 265px; /* iphone 4: 180px */
+			background-size: 75%;
+		}
+		
+		.oxxio .iphone {
+			background-position: center 135px; /* iphone4: 50px */
+			background-size: 32%;
+		}
+		
+		.oxxio .website {
+			background-position: center 620px; /* iphone 4: 520px; */
+			background-size: 95%;
+		}
+		
+		.oxxio .oscar2 {
+			background-size: 85%;
+			background-position: center 1152px; /* iphone 4: 887px */
+			opacity: 0.4;
+		}
+		
+		.oxxio article.left {
+			left: 0;
+			top: 0;
+			margin-top: 985px; /* iphone 4: 720px */
+			padding-left: 70px;
+		}
+		
+			.oxxio article.left h1 { text-align: left; }
+			
+			.oxxio article.left p {
+				font-size: 17px !important;
+				text-align: left;
+				line-height: 30px;
+			}
+	.oxxio .video{
+		left:15px;
+		margin-top:1671px; /* iphone 4: 1371px */
+	}
+		.oxxio .video video{ 
+			width: 290px;
+		}
+		
+		
+		
+		@media screen and (max-device-height:480px) and (min-device-height:480px) {
+
+			.oxxio .oscar {background-position: center 180px; }
+			.oxxio .iphone {background-position: center 50px;}
+			.oxxio .website {background-position: center 620px; }
+			.oxxio .oscar2 {background-position: center 1080px; opacity: 0.4;}
+			.oxxio article.left {margin-top: 920px;}
+			.oxxio .video{margin-top:1620px;}
+			
+		}
+		
+		
+	.haga {
+		background: url('../../img/cases/img/iPhone/bg-haga.png') repeat-y scroll;
+		background-size: 387px; /*iphone4: 100% */
+		height: 1509px; /*iphone 4: 1245px */
+	}
+	
+		.haga .object { height: 1509px; } /* iphone 4: 1246px */
+		
+		.haga article.left h1, .haga article.left h2 { color: #190f5a !important; text-shadow: none; }
+		.haga article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-haga.png'); background-size:  320px 58px; }
+		
+		.haga article.expanded hgroup { background: #dedede url('../../img/cases/img/iPhone/bg-arrowdown-blue.png') right center no-repeat; background-size: 43px 59px; }
+				
+		.haga .iphone {
+			background-size: 40%;
+			background-position: 50px 150px; /* iphone 4: 80px */
+			width: 100% !important;
+		}
+		
+		.haga .iphone2 {
+			background-size: 40%;
+			background-position: 150px 120px; /* iphone 4: 50px */
+			width: 100% !important;
+		}
+		
+		.haga .scrnshot { display: none; }
+		
+		.haga .eerste {
+			background-position: right 70px; /* iphone 4: top */
+			background-size: 70%;
+		}
+		.haga .quote {
+			
+			margin-top: 150px; /* toegevoegd voor iphone 5 */
+		}
+		.haga .website {
+			background-size: 90%;
+			width: 100%;
+			background-position: center 1146px; /* iphone 4: 916px */
+		}
+		.haga article.right {
+			margin-top: 510px !important;
+			left:-130px;
+			width: 195px;
+		}
+			
+	.stiho {
+		background: url('../../img/cases/img/iPhone/bg-stiho.jpg') repeat-y scroll;
+		background-size: 387px; /* iphone 4: 100% */
+		height: 1007px !important; /* iphone 4: 831px !important */
+	}
+	
+		.stiho .object { height: 830px; }
+		
+		.stiho article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-stiho.png'); background-size:  320px 58px; }
+		.stiho article.expanded hgroup { background: #4a4440 url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px; }
+				
+		.stiho .africa {
+			background-size: 80%;
+			background-position: center 35px;
+			width: 100% !important;
+		}
+		
+		.stiho .eerste {
+			background-position: right top;
+			background-size: 70%;
+		}
+		
+		.stiho .africa p {
+			margin-top: 90px !important;
+			left:-90px;
+			width: 155px;
+		}
+		
+		.stiho .info {
+			background-size: 97%;
+			background-position: 70px 580px; /* iphone 4: 450px */
+			width: 100%;
+		}
+		
+		.stiho .dia {
+			background-position: right 0px;
+			background-size: 33%;
+		}
+		
+	.hogeschool {
+		background: url('../../img/cases/img/iPhone/bg-hogeschool.png') repeat-y scroll;
+		background-size: 387px; /*iphone 4: 100% */
+		height: 1508px; /* iphone4: 1245px */
+	}
+	
+		.hogeschool .object { height: 1508px; } /* iphone 4: 1246px */
+
+		.hogeschool article { top: 475px !important; } /* iphone4: 387px */
+		
+		
+		
+			.hogeschool article h1, .hogeschool article h2 { color: #000 !important; }
+			.hogeschool article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-hogeschool.png'); background-size:  320px 58px;}
+			.hogeschool article.expanded { top: 29px !important; }
+			.hogeschool article.expanded hgroup { background: #9ed3f0 url('../../img/cases/img/iPhone/bg-arrowdown-black.png') right center no-repeat; background-size: 43px 59px; }
+				
+		.hogeschool .notebook {
+			background-size: 190% !important;
+			background-position: -110px -100px !important; /* iphone 4: -100px = -150px */
+			background-attachment: scroll !important;
+			width: 100% !important;
+		}
+		
+		.hogeschool .beste {
+			background-position: 175px -35px;
+			background-size: 55%;
+			background-attachment: scroll;
+		}
+		
+		.hogeschool .quote {
+			background-attachment: scroll;
+			background-size: 75%;
+			background-position: center 580px; /* iphone 4: 450px */
+		}
+		
+		.hogeschool .profielwerkstuk_bg {
+			background: url('../../img/cases/img/iPhone/object-hogeschool-profielwerkstuk.png') 0px 1100px no-repeat; /* iphone4: 900px */
+			background-size: 100%;
+			width: 100%;
+		}
+		
+		.profielwerkstuk_wiewat, .profielwerkstuk_screen, .profielwerkstuk_hoe, .profielwerkstuk_hulp {
+			display: none;
+		}
+		
+		@media screen and (max-device-height:480px) and (min-device-height:480px) {
+			.hogeschool article { top: 387px !important; } 			
+			.hogeschool .notebook {background-position: -110px -150px !important;}
+			.hogeschool .quote {background-position: center 540px; }
+			.hogeschool .profielwerkstuk_bg {background: url('../../img/cases/img/iPhone/object-hogeschool-profielwerkstuk.png') 0px 1070px no-repeat;}
+		}
+	
+	.hypotheker {
+		background: url('../../img/cases/img/iPhone/bg-hypotheker.jpg') repeat-y scroll;
+		background-size: 387px;  /* iphone 4: 100% */
+		height: 1510px;  /* iphone 4: 1246px */
+	}
+	
+		.hypotheker .object { height: 1510px; } /* iphone 4: 1246px */
+			
+		.hypotheker article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-hypotheker.png'); background-size:  320px 58px;}
+		.hypotheker article.expanded hgroup { background: #083e72 url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px;
+		}
+				
+		.hypotheker .jazeker {
+			background-size: 90%;
+			left: 0;
+			background-position: right 180px; /* iphone 4: 100px */
+		}
+		
+		.hypotheker .iphone1 {
+			width: 100%;
+			background-position: 50px 660px; /* iphone 4: 500px */
+			background-size: 45%;
+		}
+		
+		.hypotheker .iphone2 {
+			width: 100%;
+			background-position: 150px 630px; /* iphone 4: 480px */
+			background-size: 45%;
+		}
+		
+		.hypotheker .website {
+			width: 100%;
+			background-position: 20px 1200px; /* iphone 4: 950px */
+			background-size: 85%;
+		}
+		
+		.hypotheker .website2 {
+			width: 100%;
+			background-position: 50px 1180px; /* iphone 4: 930px */
+			background-size: 85%;
+		}
+			
+	.unicef {
+		background: url('../../img/cases/img/iPhone/bg-unicef.jpg') repeat-y scroll;
+		background-size: 387px; /*iphone4: 100% */
+		height: 1509px; /*iphone 4: 1247px */
+	}
+	
+		.unicef .object { height: 1246px; }
+			
+		.unicef article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-unicef.png'); background-size:  320px 58px;}
+		.unicef article.expanded hgroup { background: #3c393a url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px;
+		}
+				
+		.unicef article.left {
+			margin-top: 1100px; /*iphone4: 850px */
+			left: 20px;
+			padding-left: 0;
+		}
+		
+			.unicef article.left h1 {
+				margin-left: 20%;
+				padding-bottom: 0px;
+				font-size: 10px;
+			}
+			.unicef article.left p {
+				font-size: 12px !important;
+				line-height: 25px;
+				width: 300px !important;
+			}
+		
+		.unicef .child {
+			background-size: 90%;
+			background-position: 25px 80px;
+		}
+		
+		.unicef .vogels, .unicef .bal { display: none; }
+		
+		.unicef .poppetjes {
+			width: 100%;
+			background-position: -5px 230px;
+			z-index: 100;
+			background-size: 30%;
+		}
+		
+		.unicef .iphone2 {
+			width: 100%;
+			background-position: 150px 480px;
+			background-size: 45%;
+		}
+		
+		.unicef .website {
+			width: 100%;
+			background-position: 20px 600px; /*iphone4: 470px */
+			background-size: 85%;
+		}
+		
+		.unicef .appels {
+			background: url('../../img/cases/img/object-unicef-poppetjes.png') no-repeat;
+			width: 100%;
+			background-position: -5px 765px; /*iphone4: 646px */
+			background-size: 30%;
+		}
+		
+		.unicef .world {
+			width: 100%;
+			background-position: 0px 1120px; /* iphone4: 870px */
+			background-size: 170%;
+			background-attachment: scroll;
+		}
+		
+		.unicef .tools {
+			width: 100%;
+			background-position: -15px 1165px; /* iphone 4: 915px */
+			background-size: 20%;
+		}
+		
+		.unicef .bal2 {
+			width: 100%;
+			background-position: 270px 1075px;
+			background-size: 20%;
+		}
+		
+		@media screen and (max-device-height:480px) and (min-device-height:480px) {
+
+			.unicef .website {background-position: 20px 560px;}
+			.unicef .appels {background-position: -5px 730px;}
+		
+		}
+			
+	.delta {
+		background: url('../../img/cases/img/iPhone/bg-delta.png') repeat-y scroll;
+		background-size: 387px; /* iphone 4: 100% */
+		height: 1509px; /* iphone 4: 1246px */
+	}
+	
+		.delta .object { height: 1509px; } /* iphone 4: 1246px */
+		
+		.delta article h1 { color: #776f66 !important; }
+		.delta article h2 { color: #2223a4 !important; }
+	
+		.delta article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-delta.png'); background-size:  320px 58px;}
+		.delta article.expanded hgroup { background: #afaaa5 url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px; }
+		
+		.delta .website {
+			background-size: 85%;
+			background-position: center 140px; /* iphone 4: 80px */
+		}
+		
+		.delta .asset {
+			background-size: 85%;
+			background-position: center 646px; /* iphone 4: 496px */
+		}
+		
+		.delta .ipad {
+			background-size: 85%;
+			background-position: center 1152px; /* iphone 4: 912px */
+		}
+	
+	.waternet {
+		background: url('../../img/cases/img/iPhone/bg-waternet.jpg') repeat-y scroll;
+		background-size: 387px; /* iphone 4: 100% */
+		height: 1509px; /* iphone 4: 1246px */
+	}
+	
+		.waternet .object { height: 1509px; } /* iphone 4: 1246px */
+		
+		.waternet article {
+			margin-top:0; /* toegevoegd voor iphone 5 */
+			
+		}
+		.waternet article.case-text { top: 447px !important; }
+		
+		@media screen and (max-device-height:480px) and (min-device-height:480px) {
+			.waternet article.case-text { top: 358px !important; } /* iphone4: 387px */
+		}
+		
+		.waternet article.case-text h1 { color: #535353 !important; }
+		.waternet article.case-text h2 { color: #1e9dd2 !important; }
+		.waternet article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-waternet.png'); background-size:  320px 58px;}
+		.waternet article.expanded { top: 0 !important; } /* iphone 4: 89px */
+		.waternet article.expanded hgroup { background: #1e9dd2 url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px;
+		}
+		.waternet article.expanded h2 { color: #fff !important; }
+		
+		.waternet .website {
+			background-size: 85%;
+			background-position: center 150px; /* iphone 4: 80px */
+		}
+		
+		.waternet .results1 {
+			background-size: 55%;
+			background-position: 10px 570px; /* iphone 4: 446px */
+		}
+		
+		.waternet .results2 {
+			background: url('../../img/cases/img/object-waternet-results2.png') no-repeat !important;
+			background-size: 55%;
+			background-position: 130px 722px !important; /* iphone 4: 602px */
+		}
+		
+		.waternet .results3 {
+			background-size: 55%;
+			background-position: 10px 1070px; /* iphone 4: 862px */
+		}
+		
+		.waternet .results4 {
+			background-size: 55%;
+			background-position: 130px 1210px; /* iphone 4: 1018px */
+		}
+	
+	.kvk {
+		background: url('../../img/cases/img/iPhone/bg-kvk.jpg') repeat-y scroll;
+		background-size: 387px; /* iphone 4: 100% */
+		height: 1511px; /*iphone 4: 1246px */
+	}
+	
+		.kvk .object { height: 1246px; }
+		
+		.kvk .dia.animate {
+			animation:none;
+			-webkit-animation:none;
+		}
+		.kvk .dia {
+			background-position: right top;
+			background-size: 30%;
+			-webkit-animation:none;
+			animation:none;
+		}
+		.kvk article.case-text { 
+			margin-left: 0px; 
+			width: 320px !important; 
+			top: 345px !important; /* iphone 4 : 257px */
+			/*background-image: none;*/
+			background-image: url('../../img/cases/img/iPhone/bg-overlay.png');
+		}
+		
+		@media screen and (max-device-height:480px) and (min-device-height:480px) {
+			.kvk article.case-text {  top: 257px !important; }
+		}
+	
+			.kvk article h2 { color: #ffc300 !important; }
+			.kvk article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-kvk.png'); background-size:  320px 58px;}
+			.kvk article.expanded {	top: -101px !important; }
+			.kvk article.expanded hgroup { background: #113965 url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px;
+			}
+		
+		.kvk .website {
+			background: url('../../img/cases/img/object-kvk-website.png') no-repeat !important;
+			background-size: 100% !important;
+			background-position: center 170px !important; /*iphone 4: 120px */
+			width: 100%;
+		}
+		
+		.kvk .results {
+			background: url('../../img/cases/img/iPhone/object-kvk-results.png') no-repeat;
+			background-size: 100% !important;
+			background-position: right 504px !important; /*iphone 4: 476px */
+			/*background-size: 320px 356px;*/
+			left: 0;
+		}
+	
+		.kvk .quote { margin-left: 0;
+			margin-top: 250px; /*iphone 4: 0px;, als het goed is, stond namelijk niks hier */
+		 }
+		
+		.kvk .quote p {
+			font-size: 17px;
+			width: 250px;
+			margin-top: 60px;
+			margin-left: 40px;
+			text-shadow: 1px 1px 2px #333;
+			line-height: 22px;
+		}
+		
+		.kvk .quote span {
+			margin-left: 40px;
+			font-size: 10px;
+		}
+		
+		@media screen and (max-device-height:480px) and (min-device-height:480px) {
+
+			.kvk .results {background-position: right 576px !important;}
+			.kvk .quote { margin-top: 170px;}
+			
+		}
+			
+	.abn {
+		background: url('../../img/cases/img/iPhone/bg-abn.png') repeat-y scroll;
+		background-size: 487px; /* iphone 4: 100% */
+		height: 1512px; /*iphone 4: 1248px */
+	}
+	
+		.abn .object { height: 1512px; } /* iphone 4: 1248px */
+
+		.abn article hgroup h2 { color: #00ab95 !important; }
+		.abn article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-abn.png'); background-size:  320px 58px; }
+		.abn .expanded hgroup { background: #0c352d url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px;
+		}
+				
+		.abn .splash {
+			background-position: center 180px; /* iphone 4: 130px */
+			background-size: 90%;
+		}
+				
+		.abn .dashboard {
+			background-position: center 636px; /* iphone 4: 516px */
+			background-size: 90%;
+		}
+				
+		.abn .documenten {
+			background-position: center 1132px; /* iphone 4: 902px */
+			background-size: 90%;
+		}
+		
+	.havelaar {
+		background: url('../../img/cases/img/iPhone/bg-havelaar.png') repeat-y scroll;
+		background-size: 387px; /* iphone 4: 100% */
+		height: 1007px; /* iphone 4: 832px */
+	}
+		.havelaar article hgroup h2 {
+			color: #f06f08 !important;
+		}
+		.havelaar .object { height: 832px; }
+			
+		.havelaar article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-havelaar.png'); background-size:  320px 58px; }
+		.havelaar .expanded hgroup { background: #ccbf98 url('../../img/cases/img/iPhone/bg-arrowdown.png') right center no-repeat; background-size: 43px 59px; }
+				
+		.havelaar .visual {
+			background: url('../../img/cases/img/iPhone/object-havelaar-cijfers.png') center -15px no-repeat;
+			background-size: 100%;
+			background-position-x: 0px !important;
+		}
+				
+		.havelaar .wolk1, .havelaar .wolk2, .havelaar .wolk3, .havelaar .vogels {
+			background: none;
+			display: none;
+		}
+				
+		.havelaar .quote {
+			background-position: -50px -70px; /* iphone 4: -270px */
+			background-size: 120%;
+			background-attachment: scroll;
+		}
+		
+			.havelaar .quote p {
+				padding-top: 765px; /* iphone 4: 560px */
+				padding-left: 10px;
+				font-size: 10px;
+				width: 300px;
+			}
+
+	.klanten { display: none; }
+/*}*/
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	header nav ul li#menu-item-1 { background: #fff url('../../img/cases/img/iPhone/bg-nav-werk@2x.png') 17px center no-repeat; }
+	header nav ul li#menu-item-2 { background: url('../../img/cases/img/iPhone/bg-nav-mensen@2x.png'); }
+	header nav ul li#menu-item-3 { background: url('../../img/cases/img/iPhone/bg-nav-overtt@2x.png'); }
+	header nav ul li#menu-item-4 { background: url('../../img/cases/img/iPhone/bg-nav-vacatures@2x.png'); }
+	header nav ul li#menu-item-5 { background: url('../../img/cases/img/iPhone/bg-nav-contact@2x.png'); }
+
+	.fifpro { background: url('../../img/cases/img/iPhone/bg-fifpro@2x.jpg') repeat-y scroll; }
+	.oxxio { background: url('../../img/cases/img/iPhone/bg-oxxio@2x.jpg') repeat-y scroll; }
+	.haga { background: url('../../img/cases/img/iPhone/bg-haga@2x.jpg') repeat-y scroll; }
+	.stiho { background: url('../../img/cases/img/iPhone/bg-stiho@2x.jpg') repeat-y scroll; }
+	.hogeschool { background: url('../../img/cases/img/iPhone/bg-hogeschool@2x.jpg') repeat-y scroll; }
+	.hypotheker { background: url('../../img/cases/img/iPhone/bg-hypotheker@2x.jpg') repeat-y scroll; }
+	.unicef { background: url('../../img/cases/img/iPhone/bg-unicef@2x.jpg') repeat-y scroll; }
+	.delta { background: url('../../img/cases/img/iPhone/bg-delta@2x.jpg') repeat-y scroll; }
+	.waternet { background: url('../../img/cases/img/iPhone/bg-waternet@2x.jpg') repeat-y scroll; }
+	.kvk { background: url('../../img/cases/img/iPhone/bg-kvk@2x.jpg') repeat-y scroll; }
+	.abn { background: url('../../img/cases/img/iPhone/bg-abn@2x.jpg') repeat-y scroll; }
+	.havelaar { background: url('../../img/cases/img/iPhone/bg-havelaar@2x.jpg') repeat-y scroll; }
+	
+	
+	.kvk .results {
+		background: url('../../img/cases/img/iPhone/object-kvk-results@2x.png') no-repeat;
+		background-size: 100% !important;
+		background-position: right 414px;
+	}
+	
+	.havelaar .visual {
+		background: url('../../img/cases/img/iPhone/object-havelaar-cijfers@2x.png') no-repeat;
+		background-size: 100% !important;
+		background-position: center 0px;
+	}
+	
+	.fifpro article hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-fifpro@2x.png'); }
+	.oxxio article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-oxxio@2x.png'); }
+	.haga article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-haga@2x.png'); }
+	.stiho article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-stiho@2x.png'); }
+	.hogeschool article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-hogeschool@2x.png'); }
+	.hypotheker article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-hypotheker@2x.png'); }
+	.unicef article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-unicef@2x.png'); }
+	.delta article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-delta@2x.png'); }
+	.waternet article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-waternet@2x.png'); }
+	.kvk article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-kvk@2x.png'); }
+	.abn article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-abn@2x.png'); }
+	.havelaar article.case-text hgroup { background: url('../../img/cases/img/iPhone/bg-arrowup-havelaar@2x.png'); }
+	
+	.fifpro .expanded hgroup { background: #000 url('../../img/cases/img/iPhone/bg-arrowdown@2x.png') right center no-repeat; }
+	.oxxio .expanded.right hgroup { background: #297da6 url('../../img/cases/img/iPhone/bg-arrowdown@2x.png') right center no-repeat; }
+	.haga article.expanded hgroup { background: #dedede url('../../img/cases/img/iPhone/bg-arrowdown-blue@2x.png') right center no-repeat; }
+	.stiho article.expanded hgroup { background: #4a4440 url('../../img/cases/img/iPhone/bg-arrowdown@2x.png') right center no-repeat; }
+	.hogeschool article.expanded hgroup { background: #9ed3f0 url('../../img/cases/img/iPhone/bg-arrowdown-black@2x.png') right center no-repeat; }
+	.hypotheker article.expanded hgroup { background: #083e72 url('../../img/cases/img/iPhone/bg-arrowdown@2x.png') right center no-repeat; }
+	.unicef article.expanded hgroup { background: #3c393a url('../../img/cases/img/iPhone/bg-arrowdown@2x.png') right center no-repeat; }
+	.delta article.expanded hgroup { background: #afaaa5 url('../../img/cases/img/iPhone/bg-arrowdown@2x.png') right center no-repeat; }
+	.waternet article.expanded hgroup { background: #1e9dd2 url('../../img/cases/img/iPhone/bg-arrowdown@2x.png') right center no-repeat; }
+	.kvk article.expanded hgroup { background: #113965 url('../../img/cases/img/iPhone/bg-arrowdown@2x.png') right center no-repeat; }
+	.abn .expanded hgroup { background: #0c352d url('../../img/cases/img/iPhone/bg-arrowdown@2x.png') right center no-repeat; }
+	.havelaar .expanded hgroup { background: #ccbf98 url('../../img/cases/img/iPhone/bg-arrowdown.png@2x') right center no-repeat; }
+	
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8" />
+		<meta property="fb:page_id" content="97362236359" />
+		<meta property="og:title" content="Tam Tam Portfolio" />
+		<meta property="og:type" content="company" />
+		<meta property="og:url" content="http://www.tamtam.nl/english" />
+		<meta property="og:image" content="http://www.tamtam.nl/wp-content/themes/tamtam/img/parallax-fb.jpg?v=34" />
+		<meta property="og:site_name" content="Tam Tam" />
+		<meta property="og:description" content="Onze showcase pagina met een overzicht van projecten waar we met trots aan hebben gewerkt. En dit zijn er maar een paar uit velen." />
+		<meta name="description" content="Onze showcase pagina met een overzicht van projecten waar we met trots aan hebben gewerkt. En dit zijn er maar een paar uit velen." />
+		<title>Parallax Scroll Page</title>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+		<!--[if lte IE 8]><link type="text/css" href="css/ie.css" rel="stylesheet" media="screen"/><![endif]-->
+		<!--[if lte IE 8]><script type="text/javascript" src="js/modernizr.js"></script><![endif]-->
+		<script type="text/javascript">
+			/* This part should be server-side if you can. Otherwise, you can use this. */	
+			var isIpad = navigator.userAgent.match(/iPad/i) != null;
+			var isMobile = navigator.userAgent.match(/iPhone/i) != null || navigator.userAgent.match(/iPod/i) != null || navigator.userAgent.match(/android/i) != null;
+			if(isIpad) document.write('<link type="text/css" href="css/ipad.css" rel="stylesheet" media="screen"/>');
+			if(isMobile) document.write('<link type="text/css" href="css/iphone.css" rel="stylesheet" media="screen"/>');
+		</script>
+	</head>
+	<body>
+		<div id="main" role="main">
+			<header>
+				<div class="navbar">
+					<div class="site-title">
+							<a href="#" title="Tam Tam" rel="home">Parallax Scrolling Page</a>
+					</div>
+				</div>
+			</header>
+			<nav class="sub">
+				<ul>
+					<li><a href="#background" class="active">Moving backgrounds</a></li>
+					<li><a href="#sprite-vertical">Vertical images</a></li>
+					<li><a href="#sprite-horizontal">Horizontal images</a></li>
+					<li><a href="#block-vertical">Vertical blocks</a></li>
+					<li><a href="#block-horizontal">Horizontal blocks</a></li>
+				</ul>
+			</nav>
+			<div class="scroll">Scroll down</div>
+			<section id="background" class="case background" data-speed="-1.5" data-type="background">
+				<article>
+					<hgroup>
+						<h1>Moving the general background</h1>
+					</hgroup>
+					<p>This function works exactly like Richard Shepherd's Parallax Scrolling Tutorial example. The background changes position as you scroll. The main cause for your parallax effect.</p>
+					<ul>
+						<li>data-type: <strong>background</strong></li>
+						<li>data-speed: <strong>integer</strong> <em>(higher is slower, negative is scrolling with the scroll)</em></li>
+					</ul>
+				</article>
+			</section>
+			<section id="sprite-vertical" class="case verticalSprite" data-speed="10" data-type="background">
+				<div class="object kitten" data-type="sprite-vertical" data-start="350" data-end="" data-xPos="75%" data-speed="-0.5"></div>
+				<article>
+					<hgroup>
+						<h1>Vertically moving objects</h1>
+					</hgroup>
+					<p>To move objects vertically, the objects are set as backgrounds after which they get a fixed position for performance reasons. The variables below can be used to control the animation.</p>
+					<ul>
+						<li>data-type: <strong>sprite-vertical</strong></li>
+						<li>data-start: the position you'd like the background to start in pixels (<strong>integer</strong>)</li>
+						<li>data-end: the position you'd like the background to end in pixels <strong>integer</strong><em>(if left empty, it will scroll indefinitely)</em></li>
+						<li>data-xPos: the x-axis position in <strong>any css bg-position unit</strong></li>
+						<li>data-speed: scroll-speed <strong>integer</strong> <em>(positive integer for scroll animation up, negative for scroll animation down)</em></li>
+					</ul>
+				</article>
+			</section>
+			<section id="sprite-horizontal" class="case horizontalSprite" data-speed="5" data-type="background">
+				<div class="object pug" data-type="sprite-horizontal" data-start="20" data-end="30" data-yPos="350px" data-speed="0.01"></div>
+				<article>
+					<hgroup>
+						<h1>Horizontally moving objects</h1>
+					</hgroup>
+					<p>Same as the vertically moving objects, the objects are backgrounds that get a fixed position. The two main differences: start is in percentages en yPos is pixels.</p>
+					<ul>
+						<li>data-type: <strong>sprite-horizontal</strong></li>
+						<li>data-start: the position you'd like the background to start in percentages (<strong>integer</strong>)</li>
+						<li>data-end: the position you'd like the background to end in percentages <strong>integer</strong><em>(if left empty, it will move indefinitely)</em></li>
+						<li>data-yPos: the y-axis position in <strong>any css bg-position unit</strong></li>
+						<li>data-speed: scroll-speed <strong>integer</strong> <em>(positive integer for scroll animation up, negative for scroll animation down)</em></li>
+					</ul>
+				</article>
+			</section>
+			<section id="block-vertical" class="case verticalBlock" data-speed="-5" data-type="background">
+				<article data-type="vertical-block" data-start="-50" data-end="400" data-speed="1.2">
+					<hgroup>
+						<h1>Vertical sticky blocks</h1>
+					</hgroup>
+					<p>In order for block elements (derived from display:block) to move smoothly they need to have a fixed position (mainly for performance reasons). However, when applying a fixed position to an element, all other elements that depend on this element for their relative position will move. Therefore, we clone this element and hide the original to create the animation, then switch it back when the element stops.</p>
+					<ul>
+						<li>data-type: <strong>vertical-block</strong></li>
+						<li>data-start: the position you'd like the block to start in pixels (<strong>integer</strong>)</li>
+						<li>data-end: the position you'd like the block to end in pixels <strong>integer</strong><em>(if left empty, it will move indefinitely)</em></li>
+						<li>data-speed: scroll-speed <strong>integer</strong> <em>(positive integer for scroll animation up, negative for scroll animation down)</em></li>
+					</ul>
+				</article>
+			</section>
+			<section id="block-horizontal" class="case horizontalBlock" data-speed="5" data-type="background">
+				<article data-type="horizontal-block" data-start="-270" data-end="" data-speed="2" data-yPos="150">
+					<hgroup>
+						<h1>Horizontal sticky blocks</h1>
+					</hgroup>
+					<p>This block works the same way as the vertically moving one, with cloning and all.</p>
+					<ul>
+						<li>data-type: <strong>vertical-block</strong></li>
+						<li>data-start: the position you'd like the block to start in pixels (<strong>integer</strong>)</li>
+						<li>data-end: the position you'd like the block to end in pixels <strong>integer</strong><em>(if left empty, it will move indefinitely)</em></li>
+						<li>data-speed: scroll-speed <strong>integer</strong> <em>(positive integer for scroll animation up, negative for scroll animation down)</em></li>
+					</ul>
+				</article>
+			</section>
+			<div class="back-to-top"><a href="#">Back to the top</a></div>
+		</div>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" ></script>
+		<script type="text/javascript">!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js" type="text/javascript"%3E%3C/script%3E'))</script>
+		<script type="text/javascript" src="js/jquery.bullseye-1.0-min.js"></script>
+		<script type="text/javascript" src="js/parallax.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('header > div.navbar, header nav').animate({top:'0px'}, 'slow');
+				
+				/* Height fix for last section. */
+				var lastSection = $('section:last-child');
+				if( lastSection.height() < $(window).height() ){
+					lastSection.height($(window).height());
+				}
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,1361 @@
+/** TODO: schaduw bovenkant **/
+@media (orientation:portrait){
+	.site-title {
+		margin-left: 40px !important;
+	}
+	
+	header nav {
+		margin-right: 40px !important;
+	}
+	
+	header,  nav.sub{
+		position:fixed;
+	}
+	
+	nav.sub{
+		display:none;
+	}
+	
+	nav.sub ul {
+		max-width: 195px !important;
+		width: 195px !important;
+	}
+	
+	nav.sub ul li {
+		max-width: 100px;
+	}
+	
+	#scrollen{
+		display:none;
+	}
+	
+	.fifpro {
+		height: 1400px !important;
+		background:url('../../img/cases/img/iPadPortrait/bg-fifpro.jpg');
+		background-size: 768px 928px;
+		background-color:#000;
+		background-repeat: no-repeat;
+	}
+		
+		.fifpro article.case-text {
+			background: none;
+			width: 650px !important;
+			max-width: 650px !important;
+			min-width: 650px !important;
+			left: -70px;
+			top: 380px !important;
+		}
+		
+		.fifpro article.case-text p{
+			width: 550px !important;
+		}
+		
+		.fifpro .football {
+			background-position-y: 100px;
+		}
+		.fifpro .ribbon {
+			background-position: center 100px;
+		}
+		
+		.fifpro .ribbon2 {
+			background-position: center 350px;
+		}
+		
+		.fifpro .clone0 {
+			padding-top: 510px;
+		}
+	
+	.upc {
+		background-size:100% 50%;
+	}
+		.upc article{
+			margin-top:700px;
+			padding-left:50px;
+		}
+		.upc .laptop, .upc .tv-telefoon, .upc .website1, .upc .website2, .upc .website3{
+			width:100%;
+		}
+		.upc .website1, .upc .website2, .upc .website3{
+			left: 10%;
+			margin-top:1100px;
+		}
+			.upc .sticker2{
+				margin-top:1100px;
+			}
+	
+	.oxxio {
+		height: 2768px !important;
+		background: url('../../img/cases/img/iPadPortrait/bg-oxxio.jpg');
+		background-size: 768px 930px;
+	}
+		.oxxio .object {
+			height: 3718px;
+		}
+		
+		.oxxio article.case-text {
+			/*background: url('../../img/cases/img/iPadPortrait/bg-oxxio-glow.png');*/
+			width: 550px !important;
+			max-width: 550px !important;
+			min-width: 550px !important;
+			left: -170px !important;
+			top: 450px !important;
+			z-index: 102;
+		}
+		
+		.oxxio article.left {
+			z-index: 2000 !important;
+		}
+		
+		.oxxio .dia {
+			display: none;
+		}
+		
+		.oxxio .oscar{
+			background-position: 50% 232px;
+			z-index: 100;
+		}
+		
+		.oxxio .oscar2{
+			background-position: -80px 1055px;
+			background-size: 70%;
+		}
+		
+		.oxxio.left {
+			z-index: 2000 !important;
+		}
+		
+		.oxxio .iphone{
+			background-position: 305px 80px;
+			z-index: 101;
+		}
+		
+		.oxxio .website {
+			background-position:  center 1950px;
+			background-size: 80%; 
+		}
+		
+		.oxxio .video {
+			top:-60px;
+			padding-top: 0px !important;
+			left: 130px !important;
+		}
+		
+		.oxxio .video video {
+			width: 500px;
+			height: 282px;
+		}
+		.oxxio .left {
+			margin-top: 1020px !important;
+		}
+		
+		.oxxio .clone0 {
+			padding-top: 1110px;
+		}
+			
+		.oxxio .clone1 {
+			padding-top: 2040px;
+		}
+		
+	.haga {
+		height: 1858px !important;
+		background-attachment: fixed;
+		background: url('../../img/cases/img/iPadPortrait/bg-haga.jpg');
+		background-size: 778px 928px;
+	}
+		.haga .object {
+			height: 2786px;
+		}
+			
+		.haga .eerste{
+			background-position: 90% 55px;
+		}
+		.haga .iphone{
+			background-position: 40% 175px;
+		}
+		.haga .iphone-shadow1{
+			display: none;
+		}
+		
+		.haga .iphone2{
+			background-position: 0% 155px;
+		}
+			
+		.haga .website{
+			background-position: center 605px;
+		}
+			
+		.haga .scrnshot {
+			background-position: right 895px;
+			background-size:85%;
+			display:none;
+		}
+			
+		.haga article.case-text {
+			background: none;
+			width: 550px !important;
+			max-width: 550px !important;
+			min-width: 550px !important;
+			left: -70px !important;
+			top: 490px !important;
+			z-index: 102;
+		}
+			
+		.haga article.right {
+			top:1500px;
+			left:-67px;
+		}
+			
+		.haga .clone0 {
+			padding-top: 550px;
+		}
+			
+		.haga .clone1 {
+			padding-top: 550px;
+		}
+		
+	.stiho {
+		height: 1859px !important;
+		background-attachment: fixed;
+		background: url('../../img/cases/img/iPadPortrait/bg-stiho.jpg');
+		background-size: 768px 928px;
+	}
+		.stiho .object {
+			height: 1856px;
+		}
+		
+		.stiho .africa {
+			width: 100%;
+			background-position: 65% 100px;
+		}
+		
+		.stiho .dia {
+			background-position: 160px 190px;
+			background-size: 18%;
+		}
+		.stiho article.case-text {
+			background: none;
+			width: 550px !important;
+			max-width: 550px !important;
+			min-width: 550px !important;
+			left: -70px !important;
+			top: 490px !important;
+			z-index: 102;
+		}
+		
+		.stiho .info {
+			width: 100%;
+			background-position: right 600px;	
+		}
+		
+		.stiho .clone0 {
+			padding-top: 550px;
+		}
+
+	.hogeschool {
+		height: 2287px !important;
+		background-attachment: fixed;
+		background: url('../../img/cases/img/iPadPortrait/bg-hogeschool.jpg');
+		background-size: cover;/*768px 928px;*/
+		background-color:#9ed3f0;
+		background-position:center center;
+		background-repeat:no-repeat;
+	}
+		.hogeschool .object {
+			height: 2784px;
+		}
+		
+		.hogeschool .notebook {
+			background-position: -120px -350px !important;
+			width: 100%;
+			background-size: 150%;
+			background-attachment: scroll;
+		}
+		
+		.hogeschool .quote {
+			background-position: 50% 930px;
+		}
+		
+		.profielwerkstuk_wiewat, .profielwerkstuk_screen, .profielwerkstuk_hoe, .profielwerkstuk_hulp {
+			display: none;
+			background: none;
+		}		
+		
+		.profielwerkstuk_bg {
+			background-image: url('../../img/cases/img/iPadPortrait/object-hogeschool-profielwerkstuk.png') !important;
+			background-repeat: no-repeat;
+			background-position: 100px 1608px !important;
+			background-attachment: scroll;
+		}
+		.hogeschool article.case-text {
+			background: none;
+			width: 550px !important;
+			max-width: 550px !important;
+			min-width: 550px !important;
+			left: -70px !important;
+			top: 330px !important;
+			z-index: 102;
+		}
+		
+		.hogeschool .clone0 {
+			padding-top: 1180px;
+		}
+		
+		.hogeschool .clone1 {
+			padding-top: 2110px;
+		}
+		
+	.hypotheker {
+		height: 2288px !important;
+		background-attachment: fixed;
+		background: url('../../img/cases/img/iPadPortrait/bg-hypotheker.jpg');
+		background-size: 768px 928px;
+	}
+		.hypotheker .object {
+			height: 2784px;
+		}
+		
+		.hypotheker .jazeker {
+			width: 100%;
+			left: 0px;
+			background-position: right 200px;
+			background-size: 90%;
+		}
+		
+		.hypotheker .website {
+			background-position: 50px 590px;
+			background-size: 70%;
+		}
+		
+		.hypotheker .website2 {
+			background-position: 230px 490px;
+			background-size: 70%;
+		}
+		
+		.hypotheker .iphone1 {
+			background-position: 200px 1150px;
+			background-size: 30%;
+			width: 100%;
+		}
+		
+		.hypotheker .iphone2 {
+			background-position: 350px 1120px;
+			background-size: 30%;
+			width: 100%;
+		}
+		
+		.hypotheker article.case-text {
+			background: none;
+			width: 550px !important;
+			max-width: 550px !important;
+			min-width: 550px !important;
+			left: -70px !important;
+			top: 490px !important;
+			z-index: 102;
+		}
+		
+		.hypotheker .clone0 {
+			padding-top: 550px;
+		}
+		
+		.hypotheker .clone1 {
+			padding-top: 550px;
+		}
+	
+	.unicef {
+		height: 2788px !important;
+		background-attachment: fixed;
+		background: url('../../img/cases/img/iPadPortrait/bg-unicef.jpg');
+		background-size: 768px 928px;
+	}
+		.unicef .object {
+			height: 2784px;
+		}
+		
+		.unicef .child {
+			background-position: center 130px;
+			background-size: 70%;
+		}
+		
+		.unicef .website {
+			background-position: center 1050px;
+			background-size: 70%;
+		}
+		
+		.unicef .vogels, .unicef .bal, .unicef .bal2 {
+			display:  none;
+			background: none;
+		}
+		
+		.unicef .appels {
+			background-position: right 1732px;
+		}
+		.unicef article.case-text {
+			background: none;
+			width: 550px !important;
+			max-width: 550px !important;
+			min-width: 550px !important;
+			left: -70px !important;
+			top: 490px !important;
+			z-index: 102;
+		}
+		
+		.unicef .world {
+			background-position: center 2000px;
+		}
+		
+		.unicef .left {
+			padding-top: 860px;
+			padding-left: 0px;
+			margin-left: -65px;
+			width: 650px !important;
+			min-width: 650px !important;
+			max-width: 650px !important;
+		}
+		
+		.unicef .left p {
+			width: 650px !important;
+			min-width: 650px !important;
+			max-width: 650px !important;
+		}
+		.unicef .clone0 {
+			padding-top: 1045px;
+		}
+		
+		.unicef .clone1 {
+			display: none;
+		}
+	
+	.delta{
+		background: #fff url('../../img/cases/img/iPadPortrait/bg-delta.jpg') scroll repeat-y;
+		background-size: 768px 929px;
+		height: 1858px;
+	}
+	
+		.delta article {
+			width: 550px;
+			max-width: 550px;
+			left: -70px;
+			top: 460px !important;
+			background: none;
+		}
+
+		.delta .object {
+			height: 2784px;
+		}
+		
+		.delta .website {
+			background-position: center 130px;
+			background-size: 70%;
+		}
+		
+		.delta .asset {
+			background-position: center 408px;
+			background-size: 70%;
+		}
+		
+		.delta .ipad {
+			background-position: center 866px;
+			background-size: 70%;
+		}
+		
+		.delta .clone0 {
+			padding-top: 548px;
+		}
+		
+		.delta .clone1 {
+			padding-top: 548px;
+		}
+		
+	.waternet{
+		background: #fff url('../../img/cases/img/iPadPortrait/bg-waternet.jpg') scroll repeat-y;
+		background-size: 768px 929px;
+		height: 1788px;
+	}
+	
+		.waternet article {
+			width: 550px;
+			max-width: 550px;
+			left: -70px;
+			top: 460px !important;
+			background: none;
+		}
+
+		.waternet .object {
+			height: 2784px;
+		}
+		
+		.waternet .website {
+			background-position: center 130px;
+			background-size: 70%;
+		}
+		
+		.waternet .results1 {
+			background-position: 100px 1088px;
+			-webkit-animation:none;
+		}
+		
+		.waternet .results2 {
+			background-position: 400px 1188px;
+			-webkit-animation:none;
+		}
+		
+		.waternet .results3 {
+			background-position: 80px 1428px;
+			-webkit-animation:none;
+		}
+		
+		.waternet .results4 {
+			background-position: 400px 1528px;
+			-webkit-animation:none;
+		}
+		
+		.waternet .clone0 {
+			padding-top: 1182px;
+		}
+		
+		.waternet .clone1 {
+			padding-top: 2108px;
+		}
+
+	.kvk{
+		background: #fff url('../../img/cases/img/iPadPortrait/bg-kvk.jpg') scroll top repeat-y;
+		background-size: 768px 929px;
+		height: 1857px;
+	}
+	
+		.kvk .object {
+			height: 2784px;
+		}
+		
+		.kvk article {
+			width: 550px;
+			max-width: 550px;
+			left: -70px;
+			top: 390px !important;
+			background: none;
+		}
+		
+		.kvk .website {
+			background-position: 100px 100px !important;
+			background-size: 75%;
+			width: 100%;
+		}
+		
+		.kvk .results {
+			background-size: 85%;
+			background-position: 0px 300px;
+		}
+		.kvk .clone0 {
+			padding-top: 322px;
+		}
+		
+		.kvk .clone1 {
+			padding-top: 328px;
+		}
+		
+		.kvk .dia{
+			display:none;
+		}
+		
+		.kvk .quote {
+			margin-top: -1250px;
+		}
+		.kvk .quote p {
+			padding-top: 2150px;
+			margin-left: -150px;
+			width: 400px;
+		}
+		
+		.kvk .quote span {
+			margin-left: -150px;	
+		}
+		
+	.abn{
+		background: #fff url('../../img/cases/img/iPadPortrait/bg-abn.jpg') scroll top repeat-y;
+		height: 2288px;
+		background-size: 768px 929px;
+	}
+	
+		.abn .object {
+			height: 2788px;
+		}
+		
+		.abn article {
+			width: 550px;
+			max-width: 550px;
+			left: -70px;
+			top: 500px !important;
+		}
+		
+		.abn .splash {
+			background-size: 85%;
+			background-position: center 200px;
+		}
+		
+		.abn .dashboard {
+			background-size: 65%;
+			background-position: center 1058px;
+		}
+		
+		.abn .documenten {
+			background-size: 65%;
+			background-position: center 1686px;
+		}
+		
+		.abn .clone0 {
+			padding-top: 1048px;
+		}
+		
+		.abn .clone1 {
+			padding-top: 1976px;
+		}
+		
+	.havelaar{
+		background: #fff url('../../img/cases/img/iPadPortrait/bg-havelaar.jpg') scroll top repeat-y;
+		background-size: 768px 929px;
+		height: 1856px;
+	}
+	
+		.havelaar .object {
+			height: 1856px;
+		}
+		
+		.havelaar article {
+			width: 550px;
+			max-width: 550px;
+			left: -70px;
+			top: 490px !important;
+			background: none;
+		}
+		
+		.havelaar .visual {
+			background: url('../../img/cases/img/iPadPortrait/object-havelaar-visual.png') no-repeat;
+			background-position: center -10px;
+		}
+		
+		.havelaar .wolk1, .havelaar .wolk2, .havelaar .wolk3 {
+			display: none;
+			background: none;
+			-webkit-animation:none;
+		}
+		
+		.havelaar .vogels, .havelaar .vogels.second{
+			-webkit-animation:none;
+		}
+		
+		.havelaar .quote {
+			background-attachment: scroll;
+			background-position: center -200px;
+		}
+		
+		.havelaar .quote p {
+			padding-top: 1320px;
+			padding-left: 180px;
+		}
+		
+		.havelaar .clone0 {
+			display: none;
+		}
+		
+		.klanten{
+			 height: 1656px !important;
+		}
+		
+			.klanten .case-title {
+				left: 110px;
+			}
+			.klanten .first {
+				padding-left: 5% !important;
+				position: absolute !important;
+			}
+			
+			.klanten .klanten2 {
+				padding-left: 22%;
+			}
+			
+			.klanten .klanten3 {
+				padding-left: 41%;
+				position: absolute;
+			}
+		
+			.klanten .klanten4 {
+				clear: both;
+				padding-left: 5%;
+				margin-top: 150px;
+			}
+			
+			.klanten .klanten5 {
+				padding-left: 0% !important;
+				margin-left: -15px !important;
+				top:-200px;
+			}
+			
+			.klanten .klanten6 {
+				padding-left: 5%;
+				position: absolute;
+				top: 380px;
+				left: 36%;
+			}
+			.klanten article {
+				width: 250px;
+				margin-top: 50px;
+			}
+			
+			.klanten .klanten5, .klanten .klanten6 {
+				margin-top: 350px;
+			}
+}
+
+@media (orientation:landscape){
+	.site-title {
+		margin-left: 40px !important;
+	}
+	
+	header nav {
+		margin-right: 40px !important;
+	}
+
+	nav.sub{
+		background-position: 0 0;
+	}
+
+	nav.sub ul {
+		max-width: 195px !important;
+		width: 195px !important;
+	}
+	
+	nav.sub ul li {
+		max-width: 100px;
+	}
+	.case-text {
+		top: 0px !important;
+	}
+	
+	#scrollen{
+		display:none;
+	}
+	.fifpro {
+		height: 1342px !important;
+		background: url(../../img/cases/img/iPad/bg-fifpro.jpg);
+		background-size: 1024px 673px;
+	}
+		.fifpro article {
+			padding-top: 12%;
+			background-position: 40px -20px;
+			z-index: 90;
+		}
+		.fifpro .football {
+			z-index: 100;
+			background-position-x:85%;
+			-webkit-animation:none;
+		}
+		
+		.fifpro .ribbon{
+			background-position: 95% 220px;
+			background-size:50%;
+			height: 1344px;
+			z-index: 100;
+		}
+		
+		.fifpro .ribbon2{
+			background-position: 50% 250px;
+			background-size:50%;
+			height: 1344px;
+		}
+		
+		.fifpro .clone0 {
+			padding-top: 250px;
+			background-position-y: 100px;
+		}
+	
+	.upc {
+		background-size:100% 50%;
+		height:2200px;
+	}
+		.upc article{
+			width:35%;
+			padding-top:25px;
+		}
+			.upc article p.description{
+				font-size:1.9em;
+			}
+		.upc .gradient1{ background-position-x:155%; }
+		.upc .laptop, .upc .tv-telefoon, .upc .website1, .upc .website2, .upc .website3{
+			width:100%;
+			background-size:40%;
+			background-position-x: 95%;
+		}
+		.upc .laptop{ background-size:25%; background-position-x:70%; }
+		.upc .website1, .upc .website2, .upc .website3{
+			margin-top:600px;
+			width:100%;
+			background-position-x: 35%;
+		}
+			.upc .website1{ background-position: 35% 305px; }
+			.upc .website2{ background-position-x: 50%; }
+			.upc .website3{ background-position-x: 75%; }
+			.upc .gradient2{ background-position:35% 0px; margin-top:700px; }
+			.upc .sticker2{
+				margin-top:640px;
+			}
+	
+		.upc .takeover{ margin-top:1000px; }
+		.upc .sticker3{ margin-top:1350px; }
+	
+	.oxxio { 
+		background: #277ca1 url(../../img/cases/img/bg-oxxio.jpg) repeat-y;
+		height: 2086px !important;
+		background-size:2000px 1346px;
+		z-index: 101;
+	}
+	
+		.oxxio article {
+			width: 300px;
+			left: 350px !important;
+		}
+		.oxxio .dia{
+			background-position: 97% 50px;
+			background-size:17%;	
+		}
+		.oxxio .oscar{
+			background-position: 23% 292px;
+			z-index: 100 !important;
+		}
+		
+		.oxxio .oscar2{
+			background-position: -60px 1355px;
+			background-size: 49%;
+			z-index: 100 !important;
+		}
+		
+		.oxxio .iphone{
+			background-position: 255px 80px;
+			z-index: 101 !important;
+		}
+		
+		.oxxio .website {
+			background-position:  50% 850px;
+/* 			background-size: 45%;  */
+			z-index: 100 !important;
+		}
+		
+		.oxxio .left {
+			margin-top: 1280px !important;
+			left: 50px!important;
+			z-index: 2000 !important;
+		}
+		
+		.oxxio .clone0 {
+			padding-top: 850px;
+		}
+		
+		.oxxio .video{
+			top:-700px;
+			left:60%;
+			width:100%;
+		}
+		
+		.oxxio .video video {
+			margin-top: -300px !important;
+			margin-left: -15px;
+			width: 400px;
+			height: 300px;
+		}
+
+
+	.haga {
+		height: 2014px !important;
+		background-attachment: fixed;
+		background: #F1F1F1 url('../../img/cases/img/iPad/bg-haga.jpg') repeat-y;
+	}
+		.haga .object {
+			height: 2014px !important;
+		}
+
+		.haga .eerste{
+			background-position: 95% 55px;
+		}
+		.haga .iphone{
+			background-position: 70% 115px;
+		}
+		.haga .iphone-shadow1{
+			display: none;
+		}
+		
+		.haga .iphone2{
+			background-position: 75% 95px;
+		}
+		
+		.haga .website{
+			background-position: 450px 125px;
+		}
+		
+		.haga .website-reflectie{
+			background-position: 110% 645px;
+		}
+		
+		.haga .scrnshot {
+			background-position: 100% 825px;
+			background-size:auto auto;
+		}
+		
+		
+		.haga article.right {
+			padding-top: 540px;
+		}
+		
+		.haga .clone0 {
+			padding-top: 290px;
+		}
+		
+		.haga .clone1 {
+			padding-top: 290px;
+		}
+	
+	.routevision {
+		background: #f1f1f1 url('../../img/cases/img/iPad/bg-routevision.jpg') repeat-y;
+		height: 1342px !important;
+		background-size: 1024px 673px;
+	}
+	
+		.routevision article {
+			width: 350px;
+			left: 350px;
+		}
+		.routevision .website{
+			background-position: 32% 200px;
+			background-attachment: scroll;
+			background-size: 40%;
+		}
+		
+		.routevision .mijn{
+			background-position: center 765px;
+			background-size: 60%;
+		}
+		
+	.stiho{
+		background-attachment: scroll;
+		height: 1343px !important;
+	}
+		.stiho article {
+			width: 300px;
+		}
+		.stiho .dia {
+			background-position: 60% 160px;
+			background-size: 17%;
+		}
+		.stiho .africa{
+			background-position: 40% 100px;
+		}
+	
+		.stiho .info {
+			background-position: 100% 250px;
+		}
+		
+		.stiho .clone0 {
+			padding-top: 290px;
+		}
+	.hogeschool{
+		background: #9ed3f0 url('../../img/cases/img/iPad/bg-hogeschool.jpg') repeat-y;
+		background-position: 0px 0px;
+		background-size: 100%;
+		height: 2014px !important;
+	}
+		.hogeschool article {
+			width: 300px;
+			padding-top: 15%;
+		}
+		.hogeschool .notebook{
+			background-position: 150px -300px !important;
+			margin-left: -160px !important;
+			background-size: 98%;
+			background-attachment: scroll;
+		}
+		.hogeschool .hoek{
+			background-position: 14.5% 408px;
+			background-attachment: scroll;
+		}
+		
+		.hogeschool .quote{
+			background-position: 35% 780px;
+			background-attachment: scroll;
+		}
+		
+		
+		.hogeschool .beste{
+			background-position: 50% 0px;
+		}
+		
+		.hogeschool .profielwerkstuk_bg{
+			background-position: 45% 1615px;
+		}
+		
+		.hogeschool .profielwerkstuk_screen{
+			background-position: 35% 1750px;
+		}
+		
+		.hogeschool .profielwerkstuk_wiewat{
+			background-position: 35% 1505px;
+		}
+		
+		.hogeschool .profielwerkstuk_hoe{
+			background-position: 35% 1470px;
+		}		
+		
+		.hogeschool .profielwerkstuk_hulp{
+			background-position: 500px 1750px;
+		}
+		
+		.hogeschool .clone0, .hogeschool .clone1 {
+			display: none;
+		}
+		
+	.hypotheker {
+		height: 1513px !important;
+		background: url('../../img/cases/img/iPad/bg-hypotheker.jpg');
+	}
+		.hypotheker article {
+			padding-top: 13%;
+		}
+		.hypotheker .iphone1{
+			background-position: 22% 400px;
+		}
+			.hypotheker .iphone1-shadow{
+				background-position: 25% 335px;
+			}
+
+		.hypotheker .iphone2{
+			background-position: 35% 240px;
+		}
+		
+		.hypotheker .website{
+			background-position: 550px 200px !important;
+			background-size: 45%;
+			width:100%;
+		}
+		
+		.hypotheker .website2{
+			background-position: 550px 500px !important;
+			background-size: 45%;
+			width: 100%;
+		}
+		
+		.hypotheker .jazeker{
+			background-image: url('../../img/cases/img/object-hypotheker-jazeker.png');
+			background-position: right 200px;
+			background-attachment: scroll;
+			background-size: 50%;
+			width:100%;
+		}
+		
+		.hypotheker .clone0 {
+			padding-top: 292px;
+			display: none;
+		}
+		
+		
+		.hypotheker .clone1 {
+			padding-top: 964px;
+		}
+		
+	.unicef {
+		height: 2014px !important;
+		background: url('../../img/cases/img/iPad/bg-unicef.jpg');
+		background-size: 100%;
+	}
+	
+		.unicef article {
+			width: 300px;
+			left: 500px;
+		}
+		
+		.unicef .child{
+			background-position: 160px 150px !important;
+			background-size: 50%;
+		}
+		
+		.unicef .vogels {
+			background-position: 95% 50px;
+		}
+		
+		.unicef .bal {
+			background-position: 95% 550px;
+		}
+		
+		.unicef .poppetjes {
+			background-position: 5% 420px;
+		}
+		
+		.unicef .appels {
+			background-position: 95% 1200px;
+		}
+		
+		.unicef .website{
+			background-position: 170px 820px !important;
+		}
+			
+		.unicef .world{
+			background-position: 0px 1360px;
+			height: 2016px;
+		}
+			
+		.unicef .tools{
+			background-position: 140px 1500px;
+			height: 2016px;
+		}
+		
+		
+		.unicef .bal2 {
+			background-position: 95% 1900px;
+		}
+		
+		.unicef .left {
+			margin-top: 1400px !important;
+			margin-left: -70px !important;
+		}
+		
+		.unicef .clone0, .unicef .clone1 {
+			display: none;
+		}
+	.delta{
+		background: #e0dedd url('../../img/cases/img/iPad/bg-delta.jpg') scroll repeat-y;
+		height: 1215px !important;
+	}
+	
+		.delta article {
+			width: 320px;
+			padding-top: 205px;
+		}
+		.delta .website{
+			background-position: 95% 175px;
+			background-size:45%;
+		}
+		
+		.delta .asset{
+			background-position: 30% 25px;
+			background-size:45%;
+		}
+		
+		.delta .ipad{
+			background-position: 95% 150px;
+			background-size: 45%;
+		}
+		
+		.delta .clone0, .delta .clone1 {
+			padding-top: 292px;
+		}
+		
+	.waternet{
+		background: #fff url('../../img/cases/img/iPad/bg-waternet.jpg') scroll repeat-y;
+		background-size: 100%;
+		height: 1350px !important;
+	}
+		.waternet article {
+			width: 350px;
+		}
+		
+		.waternet .website{
+			background-position: 30% 205px;
+			background-size:40%;
+		}	
+		
+		.waternet .results1{
+			background-position: 25% 750px;
+			-webkit-animation:none;
+		}	
+		
+		.waternet .results2{
+			background-position: 45% 980px;
+			-webkit-animation:none;
+		}	
+		
+		.waternet .results3{
+			background-position: 75% 750px;
+			-webkit-animation:none;
+		}	
+		
+		.waternet .results4{
+			background-position: 95% 980px;
+			-webkit-animation:none;
+		}
+		
+		.waternet .clone0 {
+			padding-top: 924px;
+		}
+		
+		.waternet .clone1 {
+			padding-top: 1596px;
+		}
+	
+	.kvk {
+		background: #F1F1F1 url('../../img/cases/img/iPad/bg-kvk.jpg') repeat-y;
+		height: 1814px !important;
+	}
+		.kvk article {
+			left: -60px;
+		}
+		
+		.kvk .website {
+			background-size: 45%;
+			background-position: 100% 175px !important;
+			
+		}
+		.kvk .results{
+			background-position: 100% 0px;
+			background-size: auto auto;
+			right:-50px;
+		}
+		
+		.kvk .quote{
+			background:transparent url('../../img/cases/img/object-kvk-textbg.png') no-repeat left 450px;
+			left:-130px;
+			top:800px;
+		}
+	
+		.kvk .quote p {
+			padding-top:600px;
+			margin-left: 50px !important;
+			width:400px;
+		}
+		
+		.kvk .quote span {
+			margin-left: 50px !important;
+		}
+			
+	.abn{
+		background: #fff url('../../img/cases/img/iPad/bg-abn.jpg') scroll 50% repeat-y;
+		background-size: 100%;
+		height: 1314px !important;
+	}
+	
+	
+		.abn .splash{
+			background-position: 25% 270px;
+			background-size:45%;
+		}	
+		
+		.abn .dashboard{
+			background-position: 30% 650px;
+			background-size:45%;
+		}	
+		
+		.abn .documenten{
+			background-position: 90% 900px;
+			background-size:40%;
+		}
+		
+		.abn .clone0 {
+			padding-top: 824px;
+		}
+		
+		.abn .clone1 {
+			padding-top: 1496px;
+		}
+		
+		
+	.havelaar{
+		background: #fff url('../../img/cases/img/bg-maxhavelaar.png') scroll top repeat-y;
+		height: 1344px !important;
+	}
+		.havelaar article {
+			width: 300px;
+		}
+		
+		.havelaar .visual{
+			background-position: 100px 230px;
+			height: 1344px;
+		}
+		
+		
+		.havelaar .wolk1 {
+			background-position: 100px -40px;
+			-webkit-animation:none;
+		}
+		
+		.havelaar .wolk2 {
+			background-position: 350px -20px;
+			-webkit-animation:none;
+		}
+		
+		.havelaar .wolk3 {
+			background-position: 600px -95px;	
+			-webkit-animation:none;		
+		}
+		
+		.havelaar .quote{
+			background-position: 65% -500px;
+			background-attachment: scroll;
+			height: 1344px;
+		}
+		
+		.havelaar .vogels {
+			background-position: 100% 30px;
+			-webkit-animation:none;
+		}
+		
+		.havelaar .vogels.second {
+			background-position: 30% 800px;
+			-webkit-animation:none;
+		}
+		
+			.havelaar .quote p {
+				padding-left: 350px;
+				padding-top: 1023px;
+			}
+			
+		.havelaar .clone0 {
+			display: none;
+		}
+		
+	.klanten {
+		height: 1344px !important;
+	}
+
+		.klanten .clone0 {
+			display: none;
+		}
+		
+		.klanten .case-title {
+			top: 80px;
+		}
+		
+		.klanten .first {
+				padding-left: 19% !important;
+				position: absolute !important;
+			}
+			
+			.klanten .klanten2 {
+				padding-left: 37%;
+			}
+			
+			.klanten .klanten3 {
+				padding-left: 55%;
+				position: absolute;
+			}
+		
+			.klanten .klanten4 {
+				clear: both;
+				padding-left: 19%;
+				margin-top: 100px;
+			}
+			
+			.klanten .klanten5 {
+				padding-left: 0% !important;
+				margin-left: -15px !important;
+			}
+			
+			.klanten .klanten6 {
+				padding-left: 10%;
+				position: absolute;
+				top: 510px;
+				left: 45%;
+			}
+			.klanten article {
+				width: 250px;
+				margin-top: -20px;
+			}
+			
+			.klanten .klanten5, .klanten .klanten6 {
+				margin-top: 100px;
+			}
+}
