@@ -1,7 +1,7 @@
 # Parallax Scroll JS
 This library was created to solve a problem for creating parallax scrolling webpages without 
 having to specifically target javascript to make it work. This library started with adapting 
-[Richard Shepherd's Parallax Scrolling Tutorial](http://www.google.com/), The library has a 
+[Richard Shepherd's Parallax Scrolling Tutorial](http://richardshepherd.com/smashing/parallax/background.html), The library has a 
 great basis for vertically scrolling elements and served as an example for writing this library. 
 In other words, thank you Richard!
 
